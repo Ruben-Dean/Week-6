@@ -1,0 +1,50 @@
+
+body {
+    background-color: burlywood;
+width: 80%;
+margin-left:auto;
+margin-right:auto;
+}
+
+div.textbox{
+
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+    filter: alpha(opacity=60);
+}
+
+div.background{
+    margin-top: 40px;
+    border: 2px solid black;
+}
+
+div.textbox p{
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+#Table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#Table td,#table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Table tr:nth-child(even){background-color:#f2f2f2;}
+
+#Table tr:hover{background-color:#ddd;}
+
+#Table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
